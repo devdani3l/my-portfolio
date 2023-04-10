@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url(/img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+}
+
+.logo {
+    color: azure;
+    flex: 20%;
+    text-align: center;
+    border-left: 10%;
+}
+
+.main {
+    flex: 1040px;
+    border: 1px;
+    text-align: right;
+    padding: 20px;
+}
+.buttonGitHub{
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 1200px;
+    top: 35px;
+}
+
+.buttonInstagram{
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 1330px;
+    top: 35px;
+}
+
+.buttonLinkedin{
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 1265px;
+    top: 35px;
+    mix-blend-mode: normal;
+}
+
+p{
+    box-sizing: border-box;
+    position: absolute;
+    width: 774px;
+    height: 276px;
+    left: 106px;
+    top: 369px;
+    background: rgba(39, 39, 39, 0.8);
+    border: 1px solid #000000;
+    filter: blur(px);
+    border-radius: 26px;
+}
+
+.bodyText{
+    position: absolute;
+    width: 680px;
+    height: 289px;
+    left: 153px;
+    top: 415px;
+    
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 46px;
+    text-align: justify;
+    
+    color: #FFFFFF;
+}
+
+/* .bottomBar{
+    position: absolute;
+    width: 1440px;
+    height: 151px;
+    left: 0px;
+    top: 942px;
+    
+    background: #0E0E0E;
+} */
+
+
+
+
+
